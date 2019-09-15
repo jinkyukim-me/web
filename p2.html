@@ -8,9 +8,7 @@
 </head>
 <body>
   <h2><p style="margin-top:80px;">손실 함수 및 경사하강법</p></h2><hr>
-  <p style="margin-top:48px;"><strong><a href="https://en.wikipedia.org/wiki/Linear_regression" title="linear regression specification" target="_blank">선형회귀분석</a></strong>은 가져온 데이터를 가장 잘 설명하는 <strong>직선</strong> 하나를 찾는 것이라고 할 수 있다.</p>
-  <p style="margin-top:36px;"><strong>하나의 독립변수에 대하여 선형회귀분석을 하면 <u>단순선형회귀 simple linear regression</u>라고 하고 독립변수가 여러 개인 경우에는 <u>다중선형회귀 multivariate linear regression</u>라고 한다.</strong></p>
-  <p style="margin-top:36px;">다음 그림과 같이 단순선형회귀분석을 한다는 것은 x과 y라는 데이터가 주어졌을 때, y=w * x + b라는 직선의 방정식에서 데이터를 가장 잘 표현하는 변수 w와 b를 찾는다는 뜻이다. 이때 w와 b는 가중치weight와 편차bias를 각각 한 문자로 표현한 것입니다. 수학용어로 설명하면 가중치는 기울기, 편차는 y절편입니다.</p>
-  <img src="linear_regression.png" alt="Linear Regression" width="100%">
+  <p>'가장 잘'표현한다는 말에는 비교가 가능하다는 뜻이 깔려있다. 어떤 w,b쌍에 대해 데이터와 얼마나 잘 맞는지 수치적으로 계산이 가능해야하는데, 이때 사용되는 척도 중 대표적인 적이 평균제곱오차 mean squared error(MSE)가 있다. n개의 예측값 &#x00177;이 있고 주어진 데이터를 y라고 할 때, MSE의 식은 다음과 같다</p>
+  <img src="mse.jpg" title="MSE" width="80%">
 </body>
 </html>
